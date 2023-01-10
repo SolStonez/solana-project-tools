@@ -72,8 +72,9 @@ export async function getDiscordClient(projectName: any) {
             // only process !verify commands
             if (message.content.startsWith(`${prefix}verify`)) {
 
+                
                 // send the verification message to user
-                message.channel.send(`Hi ${message.author}! Visit ${redirect_url} to gain your special NFT holder role.`);
+                message.channel.send(`Hi ${message.author}! Visit ${redirect_url} to gain your special NFT holder role fucker.`);
             }
         });
     }

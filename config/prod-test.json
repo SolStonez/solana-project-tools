@@ -1,0 +1,24 @@
+{
+    "owner_public_key": "stonezEk3bTV6VtQzwY4epvdDpiK21vnNqZKP7BZjJo",
+    "is_holder": true,
+    "project_friendly_name": "test",
+    "project_twitter_name": "@SOLstonez",
+    "project_website": "https://stonez.me",
+    "message": "Verify test Discord roles",
+    "discord_url": "https://discord.gg/CCADHW8Ec2",
+    "discord_client_id": "1015061654624546878",
+    "discord_server_id": "1040037820628221962",
+    "discord_role_id": "1043264572947189821",
+    "discord_redirect_url": "http://localhost:3000/test",
+    "discord_bot_token": "MTAxNTA2MTY1NDYyNDU0Njg3OA.GOLoUH.SrIZ8k5C9T7f1jo8adqfFYfyuvbdLQ1XMFkjiY",
+    "discord_webhook": "https://discord.com/api/webhooks/1062191184732229763/XhYoMGR8S-9L0iM9dgNQX6EqLw1yM4guL2XknqQKe-Lhlf23g5enkqcwYWS21TYfbTob",
+    "update_authority": "2FMFXUHdnbBrHz3eYNrSMRZoNevXDrDPp7UvGZKKvzRT",
+    "royalty_wallet_id": "HcznhsxMNkELXujwKHf4Fn4wveiLj6nspkfW5XmnV3EN",
+    "spl_token": "",
+    "roles": [],
+    "verifications": 1,
+    "donations": 47,
+    "discord_role_names": {
+        "1043264572947189821": "OG"
+    }
+}
