@@ -36,7 +36,7 @@ export async function getLastTransaction(walletID: string) {
                     return
                 }
             }
-        } catch (e) {
+        } catch(e) {
             logger.info(`ERROR: ${e.code} - ${e.message}`)
         } finally {
             // sleep to enforce rate limiting against the solscan

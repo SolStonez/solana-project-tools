@@ -66,6 +66,8 @@ export default Vue.extend({
     try { 
       var projectConfig = await axios.get('/api/getProject?project=' + projectName)
       this.projectName = projectConfig.data.project_friendly_name
+      
+      console.log(projectConfig)
     } catch (e) {
       console.log(e) 
     }
@@ -74,6 +76,8 @@ export default Vue.extend({
     var projectSales
     try {
       projectSales = await axios.get('/api/getProjectSales?project=' + projectName)
+      
+      console.log(projectSales)
       for (var i=0; i < projectSales.data.sales.length; i++) {
         projectSales.data.sales[i].data.relativeTime = hdate.relativeTime(new Date(projectSales.data.sales[i].data.time*1000))
         projectSales.data.sales[i].data.txLink = "https://solscan.io/tx/" + projectSales.data.sales[i].data.txSignature
